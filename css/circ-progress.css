@@ -1,0 +1,57 @@
+.language-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.circ-progress {
+
+	--size: 10rem;
+	--width: 0.5rem;
+
+	--fg: var(--grey);
+	--bg: var(--grey-lighter);
+
+	/* --fg: var(--grey); */
+	/* --bg: white; */
+
+
+	position: relative;
+	height: var(--size);
+	width: var(--size);
+	border-radius: 50%;
+
+	display: grid;
+	place-items: center;
+
+
+	background: conic-gradient(
+		var(--fg) calc(var(--value) * 3.6deg),
+		var(--bg) calc(var(--value) * 3.6deg)
+	);
+
+	margin:1em
+}
+
+.circ-progress::before {
+	content: "";
+	position: absolute;
+	height: calc(var(--size) - 2*var(--width));
+	width: calc(var(--size) - 2*var(--width));
+	background-color: white;
+	border-radius: 50%;
+}
+
+.value-container {
+	text-align: center;
+	position: relative;
+	
+}
+
+.value-container>p {
+	font-size: larger;
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	color: var(--fg);
+}
