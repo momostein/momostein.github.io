@@ -144,6 +144,7 @@ address {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	column-gap: 1.5em;
+	row-gap: 0.15em;
 	align-items: center;
 }
 
