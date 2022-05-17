@@ -18,5 +18,9 @@
 
 	// Set age counter to my current age, calculated from my birth date
 	document.getElementById("age-counter").textContent = calculateAge(birthDate);
-	document.getElementById("age-tooltip").textContent = "Dynamic age counter! 😉";
+
+	// Enable tooltip
+	const tooltip = document.getElementById("age-tooltip");
+	tooltip.className = "tooltip-text";
+	tooltip.textContent = "Dynamic age counter! 😉";
 })();
