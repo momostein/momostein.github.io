@@ -279,10 +279,10 @@ footer {
 
 
 
-@media only screen and (max-width: 900px) {
-	.logo-container {
+@media only screen and (max-width: 1024px) {
+	/* .logo-container {
 		display: none;
-	}
+	} */
 
 	.hero-image {
 		padding: 3rem;
@@ -297,11 +297,14 @@ footer {
 		grid-template-columns: 1fr;
 		padding: 1em 2em;
 	}
-
+	
+	#last-section {
+		display: none;
+	}
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 480px) {
 	.logo-container {
 		display: none;
 	}
