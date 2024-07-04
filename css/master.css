@@ -35,7 +35,8 @@ h1 {
 }
 
 .hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/hero-compressed.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/hero-compressed.webp");
+	background-color: #2d362c;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
