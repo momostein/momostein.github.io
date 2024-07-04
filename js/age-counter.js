@@ -22,5 +22,5 @@
 	// Enable tooltip
 	const tooltip = document.getElementById("age-tooltip");
 	tooltip.className = "tooltip-text";
-	tooltip.textContent = "Dynamic age counter! 😉";
+	tooltip.textContent = "This counter is updated dynamically.";
 })();
