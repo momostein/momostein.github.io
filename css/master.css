@@ -138,6 +138,8 @@ address {
 	padding-bottom: 2em;
 
 	border-bottom: 0.15em solid var(--grey-light);
+
+	page-break-inside: avoid;
 }
 
 
